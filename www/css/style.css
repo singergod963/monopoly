@@ -1,0 +1,66 @@
+/* 置中 */
+body {
+    display: flex;
+    justify-content: center;
+}
+
+/* 大富翁區塊 */
+main {
+    background-image: url("../images/bg.jpg");
+    width: 803px;
+    height: 865px;
+}
+
+/* 上方區塊 */
+.top {
+    display: inline-flex;
+    width: 100%;
+    height: 144px;
+}
+
+.top .block {
+    width: 16.66666666666666%;
+    height: 100%;
+}
+
+/* 中間區塊 */
+.center {
+    display: flex;
+    width: 100%;
+    height: 576px;
+}
+
+.side {
+    width: 16.66%;
+    height: 100%;
+}
+
+.side .block {
+    width: 100%;
+    height: 144px;
+}
+
+.game {
+    width: 66.68%;
+    height: 100%;
+}
+
+.question, .success {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* 下方區塊 */
+.bottom {
+    display: inline-flex;
+    width: 100%;
+    height: 144px;
+}
+
+.bottom .block {
+    width: 16.66666666666666%;
+    height: 100%;
+}
