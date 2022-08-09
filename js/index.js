@@ -30,7 +30,7 @@ $(function () {
             alert($('.question--q' + questionIndex).find('.optionText-item').eq(answer).text());
             goToNextStep();
         } else {
-            $('.fail').show();
+            $('.fail').fadeIn(500);
             $('.failAns').hide();
             $('.failAns--q' + questionIndex).show();
         }
