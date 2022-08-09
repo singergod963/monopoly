@@ -233,6 +233,8 @@ header {
 }
 .optionText-item{
 	list-style: upper-latin;
+	user-select: none;
+	cursor: pointer;
 }
 .option{
 	width:100%;

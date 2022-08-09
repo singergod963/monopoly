@@ -12,9 +12,9 @@
 			<h1 class="sr-only">CTCI 中鼎</h1>
 		</header>
 		<div class="main">
-			<!-- 能答題的 step--s1/step--s3/step--s6/step--s7/step--s9/step--s11/step--s12/step--s14/step--s16/step--s18 -->
+			<!-- 能答題的 step--s1/step--s3/step--s6/step--s7/step--s9/step--s11/step--s12/step--s14/step--s18/step--s16 -->
 			<div class="row row--reverse">
-				<div class="square step step--go step--active"><a href="javascript:;" class="link--go bgBlack"></a></div>
+				<div class="square step step--s0 step--go step--active"><a href="javascript:;" class="link--go bgBlack"></a></div>
 				<div class="square step step--s1 "><span class="bgBlack"></span></div>
 				<div class="square step step--s2"><span class="bgBlack"></span></div>
 				<div class="square step step--s3"><span class="bgBlack"></span></div>
@@ -175,6 +175,22 @@
 						</div>
 						<!-- 第九題 -->
 						<div class="question question--q9">
+							<div class="questionText">中鼎與台灣永續標竿企業共同發起倡議，引領時代邁向淨零永續，並展開淨零EPC之路。其推動目標為?</div>
+							<div class="option">
+								<ul class="optionBtn">
+									<li class="optionBtn-item"><a href="javascript:;" class="optionBtn-item-link"><span class="sr-only">A</span></a></li>
+									<li class="optionBtn-item"><a href="javascript:;" class="optionBtn-item-link"><span class="sr-only">B</span></a></li>
+									<li class="optionBtn-item"><a href="javascript:;" class="optionBtn-item-link"><span class="sr-only">C</span></a></li>
+								</ul>
+								<ul class="optionText w80">
+									<li class="optionText-item">2030年，承諾達成組織總部與辦公室據點100%淨零排放</li>
+									<li class="optionText-item">2050年，承諾達成組織總部、辦公室據點及生產據點100%淨零排放</li>
+									<li class="optionText-item">以上皆是</li>
+								</ul>
+							</div>
+						</div>
+						<!-- 第十題 -->
+						<div class="question question--q10">
 							<div class="questionText">請問<img src="images/img-epc.png" class="img--epc"/>代表的是?</div>
 							<div class="option">
 								<ul class="optionBtn">
@@ -191,27 +207,11 @@
 								</ul>
 							</div>
 						</div>
-						<!-- 第十題 -->
-						<div class="question question--q10" style="display: flex;">
-							<div class="questionText">中鼎與台灣永續標竿企業共同發起倡議，引領時代邁向淨零永續，並展開淨零EPC之路。其推動目標為?</div>
-							<div class="option">
-								<ul class="optionBtn">
-									<li class="optionBtn-item"><a href="javascript:;" class="optionBtn-item-link"><span class="sr-only">A</span></a></li>
-									<li class="optionBtn-item"><a href="javascript:;" class="optionBtn-item-link"><span class="sr-only">B</span></a></li>
-									<li class="optionBtn-item"><a href="javascript:;" class="optionBtn-item-link"><span class="sr-only">C</span></a></li>
-								</ul>
-								<ul class="optionText w80">
-									<li class="optionText-item">2030年，承諾達成組織總部與辦公室據點100%淨零排放</li>
-									<li class="optionText-item">2050年，承諾達成組織總部、辦公室據點及生產據點100%淨零排放</li>
-									<li class="optionText-item">以上皆是</li>
-								</ul>
-							</div>
-						</div>
 					</div>
 					<!-- 答錯 -->
 					<div class="fail" style="display:none;">
 						<!-- 第一題 style="display: block;" -->
-						<div class="failAns failAns--q1" style="display: block;">
+						<div class="failAns failAns--q1">
 							<div class="failQuestionText">中近期媒大幅採用所謂的ESG原則來衡量企業的CSR績效，請問ESG各代表哪三個面向?</div>
 							<div class="rightAns">環境、社會和公司治理</div>
 						</div>
@@ -252,19 +252,19 @@
 						</div>
 						<!-- 第九題-->
 						<div class="failAns failAns--q9">
-							<div class="failQuestionText">請問<img src="images/img-epc.png" class="img--epc"/>代表的是?</div>
+							<div class="failQuestionText">中鼎與台灣永續標竿企業共同發起倡議，引領時代邁向淨零永續，並展開淨零EPC之路。其推動目標為:</div>
 							<div class="rightAns">以上皆是</div>
 						</div>
 						<!-- 第十題-->
 						<div class="failAns failAns--q10">
-							<div class="failQuestionText">中鼎與台灣永續標竿企業共同發起倡議，引領時代邁向淨零永續，並展開淨零EPC之路。其推動目標為:</div>
+							<div class="failQuestionText">請問<img src="images/img-epc.png" class="img--epc"/>代表的是?</div>
 							<div class="rightAns">以上皆是</div>
 						</div>
 						<!-- 返回按鈕-->
 						<a href="javascript:;" class="link--back"><span class="sr-only">返回</span></a>
 					</div>
 					<!-- 完成遊戲 -->
-					<div class="success">
+					<div class="success" style="display: none;">
 						<p class="text--success">WOW !! 您真棒!!<br/>感謝您對CTCI的了解</p>
 					</div>
 				</div>
@@ -287,9 +287,7 @@
 		<footer>Copyright ©2021 CTCI All rights reserved.</footer>
 		
 	</div>
-	<script src="js/jquery-2.2.4.min.js"></script>
-	<script src="js/jquery-ui.min.js"></script>
-	<script src="js/jquery.ui.touch-punch.min.js"></script>
-	<script src="js/game.js"></script>
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/index.js"></script>
 </body>
 </html>
