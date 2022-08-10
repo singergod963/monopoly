@@ -9,8 +9,8 @@ $(function () {
 
     function goToNextStep() {
         questionIndex++;
-        if(questionIndex > questionSteps.length){
-            $('.success').show();
+        if (questionIndex > questionSteps.length) {
+            $('.success').fadeIn(500);
             return;
         }
 
@@ -34,7 +34,7 @@ $(function () {
             $('.failAns').hide();
             $('.failAns--q' + questionIndex).show();
         }
-        
+
     });
 
     $('.link--back').on('click', function () {
