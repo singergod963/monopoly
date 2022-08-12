@@ -322,6 +322,21 @@ header {
 	top: 510px;
 	left: 425px;
 }
+.btn-backIndex{
+	width: 24%;
+	background-color: #FCDE80;
+	position: absolute;
+	top: 420px;
+	left: 190px;
+	padding: 5px;
+	color:#333;
+	font-size: 1.2rem;
+	font-weight: 500;
+	line-height: 1.8;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 30px;
+}
 .img--epc{
 	width: 42px;
 	height: 42px;
@@ -335,7 +350,7 @@ header {
 	top: 290px;
 	left: 90px;
 	color: #f08c00;
-	font-size: 2em;
+	font-size: 1.8em;
 	font-weight: 700;
 }
 .text--s{

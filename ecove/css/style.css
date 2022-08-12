@@ -325,6 +325,21 @@ header {
 	top: 510px;
 	left: 425px;
 }
+.btn-backIndex{
+	width: 18%;
+	background-color: #80d29d;
+	position: absolute;
+	top: 400px;
+	left: 210px;
+	padding: 10px;
+	color:#333;
+	font-size: 1.2rem;
+	font-weight: 500;
+	line-height: 1.8;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 30px;
+}
 .img--epc{
 	width: 42px;
 	height: 42px;
@@ -335,11 +350,14 @@ header {
 }
 .text--success{
 	position: absolute;
-	top: 310px;
+	top: 290px;
 	left: 120px;
 	color: #4aa34a;
 	font-size: 2em;
 	font-weight: 700;
+}
+.text--center{
+	text-align: center;
 }
 .bgBlack{
 	width: 100%;
