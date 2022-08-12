@@ -100,9 +100,6 @@ header {
 	overflow: hidden
 }
 
-.w80{
-	width: 80%;
-}
 .main{
 	width:100%;
 	overflow: hidden;
@@ -234,7 +231,7 @@ header {
 	align-items: center;
 }
 .questionText{
-	font-size:1.5em;
+	font-size:1.2em;
 }
 .optionText-item{
 	list-style: upper-latin;
@@ -258,7 +255,7 @@ header {
 	position: relative;
 	background: url(../images/optionBtn.png) no-repeat 0 0;
 	margin: 0 5px;
-	font-size: 1.2em;
+	font-size: 1em;
 }
 .optionBtn-item-link{
 	width: 100%;
@@ -294,7 +291,7 @@ header {
 }
 .failQuestionText, .rightAns{
 	position: absolute;
-	font-size: 1.1em;
+	font-size: 1em;
 }
 .failQuestionText{
 	width: 58%;
@@ -306,11 +303,11 @@ header {
 }
 .rightAns{
 	width: 50%;
-	top: 427px;
-	left: 140px;
+	top: 470px;
+	left: 180px;
 }
-.rightAns--top{
-	top: 420px;
+.rightAns--center{
+	top: 482px;
 }
 .success{
 	background: url(../images/bgSuccess.jpg) no-repeat 0 0;
@@ -334,11 +331,23 @@ header {
 }
 .text--success{
 	position: absolute;
-	top: 310px;
-	left: 120px;
+	top: 290px;
+	left: 90px;
 	color: #f08c00;
 	font-size: 2em;
 	font-weight: 700;
+}
+.text--s{
+	font-size: 1em;
+}
+.w96{
+	width: 96%;
+}
+.w80{
+	width: 80%;
+}
+.w70{
+	width: 70%;
 }
 .bgBlack{
 	width: 100%;
