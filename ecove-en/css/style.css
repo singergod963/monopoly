@@ -67,7 +67,7 @@ img, a, object {
 }
 
 body {
-	background-color: #faa21b;;
+	background-color: #00b140;
 	padding: 0;
 	font-size: 16px;
 	font-family: "Noto Sans TC", Arial, Helvetica, Arial, Helvetica, sans-serif
@@ -84,7 +84,7 @@ body {
 header {
 	width: 100%;
 	height: 100px;
-	background: #c0c0c0 url(../images/logo.jpg) no-repeat 0 center;
+	background: #fff url(../images/logo.jpg) no-repeat 0 center;
 	position: relative;
 	margin-top: 30px
 }
@@ -103,7 +103,7 @@ header {
 .main{
 	width:100%;
 	overflow: hidden;
-	border: #a84529 1px solid;
+	border: #0a673a 1px solid;
 	box-sizing: border-box;
 }
 .row{
@@ -122,7 +122,7 @@ header {
 	position: relative;
 	background: url(../images/bgCenter.jpg) no-repeat 0 0;
 	background-size: 100%;
-	border: #a84529 1px solid;
+	border: #0a673a 1px solid;
 	box-sizing: border-box;
 }
 .column--reverse{
@@ -132,7 +132,7 @@ header {
 }
 .square{
 	position: relative;
-	border: 1px solid #a84529;
+	border: 1px solid #0a673a;
 	border-collapse: collapse;
 	box-sizing: border-box;
 }
@@ -211,7 +211,7 @@ header {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: #fff5e8;
+	background-color: #f5faf6;
 	padding: 40px;
 	box-sizing: border-box;
 }
@@ -324,13 +324,13 @@ header {
 }
 .btn-backIndex{
 	width: 24%;
-	background-color: #FCDE80;
+	background-color: #80d29d;
 	position: absolute;
 	top: 420px;
 	left: 190px;
 	padding: 5px;
 	color:#333;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	font-weight: 500;
 	line-height: 1.8;
 	text-align: center;
@@ -349,7 +349,7 @@ header {
 	position: absolute;
 	top: 290px;
 	left: 90px;
-	color: #f08c00;
+	color: #4aa34a;
 	font-size: 1.8em;
 	font-weight: 700;
 }
